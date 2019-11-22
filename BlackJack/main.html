@@ -9,8 +9,13 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div>
-        <div class="header"><button onclick=Deal()>Deal</button></div>
+        <div class="bod">
+        <div class="header">
+            <input type="text" id="betEntry" value="Place your bet here">
+            <p>$</p><p id="betAmount">0</p>
+            <button onclick=Bet()>Bet</button>
+            <button onclick=Deal()>Deal</button>
+        </div>
         
         <div class="CardsDelt">Dealer Cards</div>
 
@@ -24,6 +29,8 @@
         <div id="Player" class="playerSection">
             <div id="display" class="card">Card1</div>
             <div id="display2" class="card">Card2</div>
+            <div id="display3" class="card">Card3</div>
+            <div id="display4" class="card">Card4</div>
         </div>
         
         <div id="total" class=sum>total of player cards</div>

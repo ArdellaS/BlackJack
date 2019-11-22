@@ -15,7 +15,11 @@ function Deal(min, max) {
     } */
 
 function Hit(){
-    alert("awaiting function")
+    min = Math.ceil(1);
+        max = Math.floor(11);
+        var third = document.getElementById("display3").innerHTML = Math.floor(Math.random() * (max - min)) + min;
+        var newSum = first + second + third;
+        document.getElementById("total").innerHTML = newSum;
 }
 
 function Stand(){
@@ -26,6 +30,7 @@ function Double(){
     alert("awaiting function")
 }
 
-if (Sum>21) {
-    alert(bust)
-}
+function Bet() {
+    var x = document.getElementById("betEntry").value;
+    document.getElementById("betAmount").innerHTML = x;
+  }

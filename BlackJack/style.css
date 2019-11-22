@@ -1,18 +1,22 @@
 .header{
     display: flex;
     justify-content: center;
+    justify-content: space-evenly;
 }
 
 .dealerSection{
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
+    position: absolute;
+    top: 5%;
 }
 
 .CardsDelt{
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
+    
 }
 .sum{
     display: flex;
@@ -24,6 +28,8 @@
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
+    position: absolute;
+    bottom: 20%;
     
 }
 .card{
@@ -54,4 +60,11 @@ button{
 
 .CardsDelt{
     height:30px;
+}
+
+
+.bod{
+position: relative;
+height: 800px;
+width: 800px;
 }
